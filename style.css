@@ -1,0 +1,45 @@
+body {
+	background: #efe2de;
+	margin: 0 auto;
+}
+
+.icons {
+  background: #fff5f2;
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+
+}
+
+#svg-icon {
+	width: 200px;
+	opacity: 1;
+	transition: 4s opacity;
+}
+
+#svg-icon:hover {
+	transform: scale(1.2);
+}
+
+#svg-icon2 {
+	width: 200px;
+	opacity: 1;
+	transition: 4s opacity;
+}
+
+#svg-icon2:hover {
+	transform: scale(1.2);
+}
+
+p {
+	font-family: Baskerville;
+	background-color: #fff;
+	color: #000;
+}
+
+p:hover{
+	background-color: #000;
+	color: #fff;
+}
